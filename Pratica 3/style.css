@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+  width: 100%;
+  background-color: #fef7e2;
+  height: auto;
+  padding-block: 20px;
+}
+
+.img {
+  width: 30px;
+  height: 30px;
+  padding-right: 15px;
+}
+
+.logop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header div button {
+  background-color: #ffdf7f;
+  padding-inline: 25px;
+  padding-block: 8px;
+  border-radius: 50px;
+  border: 0px;
+}
+
+.pshop {
+  font-size: 18px;
+  font-weight: bold;
+  color: #752305;
+}
+
+.classp {
+  font-weight: bold;
+  color: #752305;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+h1 {
+  color: #752305;
+  font-weight: 900;
+  font-size: 40px;
+}
